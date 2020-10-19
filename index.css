@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1300px;
+    margin: 0 auto;
+    background: #dddddd;
+}
+
+                                /* formatação do cabeçalho */
+
+#cabecalho {
+    color: white;
+    background: rgb(76, 236, 27);
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#cabecalho h1, p { 
+    text-align: center;
+    margin: 5px;
+}
+
+#cabecalho ul{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+img.logo {
+    max-width: 80px;
+    float: left;
+}
+
+
+#menu1 li {
+    display: inline;
+    margin: 5px;
+    padding: 2px;
+    color: white;
+}
+
+
+                            /* imagem de fundo */
+div#fundo1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+div#fundo1 img {
+    width: 100%;
+    height: 100%;
+}
+
+div#fundo1 h2 {
+    position: absolute;
+    margin: -120px 30% auto 30%;
+    background: rgb(76, 236, 27);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+                            /* formatação do conteudo principal  */
+
+
+div#subCont {
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin: 0px 2.3% 0px 2.3%;
+    padding: 5px;
+}
+
+div#subCont .mvv {
+    width: 30%;
+    float: left;
+    margin: 50px 0.1% 50px 2%;
+    padding-bottom: 10px;
+}
+
+div#subCont .mvv h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+div#subCont .mvv p{
+    text-align: left;
+}
+
+
+div.conteudo {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.contTexto h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+.contTexto {
+    float: left;
+    width: 45%;
+    margin: 30px auto auto 2.4%;
+    padding-top: 50px;
+}
+
+.contImg {
+    float: right;
+    width: 50%;
+    margin: 30px 0px auto auto;
+}
+
+.contImg img {
+    max-width: 90%;
+    margin:0px auto 0px 1%;
+}
+
+
+                            /* formatação do rodapé */
+
+div.rodape {
+    background:  rgb(76, 236, 27);
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    color: blanchedalmond;
+}
+
+.rodape li {
+    display: inline;
+    margin: 5px;
+    padding: 2px;
+    background: rgb(76, 236, 27);
+    color: white;
+}
+
+.rodape ul {
+    margin: 10px auto;
+}

@@ -20,9 +20,17 @@ body {
     border: 1px solid white;
 }
 
-#cabecalho h1, p { 
+#cabecalho h1 { 
     text-align: center;
     margin: 5px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32pt;
+}
+
+#cabecalho p { 
+    text-align: center;
+    margin: 5px;
+    font-size: 1em;
 }
 
 #cabecalho ul{
